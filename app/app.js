@@ -4,10 +4,9 @@ import image from './cat-image.jpg'
 import someFunction from './some-function'
 
 const render = () => {
-  console.log('rendering', someFunction)
   ReactDOM.render(
     <div>
-      <h1>Test app</h1>
+      <h1>Test app test</h1>
       <img src={image} />
       <button onClick={() => console.log(someFunction())}>Click me</button>
     </div>,

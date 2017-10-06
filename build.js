@@ -37,6 +37,7 @@ instance
 //   .parse(/.js$/, babelLoader)
 
 instance
+  .watch()
   .build('./dist', './test-2.js')
 
 // const config = {
